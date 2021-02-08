@@ -40,4 +40,5 @@ function isEven(num) {
 var num1 = 2
 var num2 = 10
 function numberGenerator(num1, num2) {
+    return Math.floor(Math.random() * (num2 - num1) + num1)
 }
