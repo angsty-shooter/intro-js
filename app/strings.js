@@ -20,6 +20,5 @@ function concat(str1, str2, separator = " ") {
 var letter = "n"
 var up = letter.toUpperCase(0)
 function capitalizer(str, position) {
-    console.log(up)
     return(up)
 }
