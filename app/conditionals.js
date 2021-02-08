@@ -1,7 +1,8 @@
 //1. Given two numbers, write a function that will return  the larger number
-
+var num1 = 5
+var num2 = 10
 function largerNum(num1, num2) {
-    // you code here
+    return Math.max(num1, num2)
 
 }
 
