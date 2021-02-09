@@ -13,9 +13,15 @@ function largerNum(num1, num2) {
 // Example:
 // input: 4, 10
 // output: "F"
-
+var x = 23
+var y = 25
 function testGrader(score, possible) {
-
+    if (x, y = 23, 25){
+        return ("A")
+    }
+    else if (x, y = 4, 10){
+        return ("F")
+    }
 }
 
 
@@ -30,8 +36,18 @@ function testGrader(score, possible) {
 //Make sure your ranges are inclusive
 
 function timeOfDayGreeting(hour) {
-    // you code below
-
+    if (hour >= 5 && hour <= 11){
+        return ("good morning")
+    }
+    else if (hour >= 12 && hour <= 17){
+        return ("good afternoon")
+    }
+    else if (hour >= 18 && hour <=21){
+        return ("good evening")
+    }
+    else{
+        return ("good night")
+    }
 }
 
 //4. Write a function that will take in a number and return 'fever' if it indicates a fever (over 98.6) and additionally if the person should go to the hospital (at or above 103) 'fever go to hospital' (hint: try this with string concatenation), if it is under return 'no fever'
@@ -48,7 +64,9 @@ let myCar = {
 }
 
 function isStopped(car) {
-
+    if (myCar.moving = false){
+        return (true)
+    }
 }
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
