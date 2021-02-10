@@ -13,7 +13,6 @@ function largerNum(num1, num2) {
 // output: "F"
 function testGrader(score, possible) {
     var test = score/possible * 100
-    console.log(test)
     if ( test >= 90){
         return ("A")
     }
