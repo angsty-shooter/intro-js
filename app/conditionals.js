@@ -12,12 +12,22 @@ function largerNum(num1, num2) {
 // input: 4, 10
 // output: "F"
 function testGrader(score, possible) {
-    console.log(score, possible)
-    if (score, possible == 23, 25){
+    var test = score/possible * 100
+    console.log(test)
+    if ( test >= 90){
         return ("A")
     }
-    else{
+    else if ( test >= 80){
+        return ("B")
+    }
+    else if ( test >= 70){
         return ("C")
+    }
+    else if ( test >= 60){
+        return ("D")
+    }
+    else{
+        return ("F")
     }
 }
 
