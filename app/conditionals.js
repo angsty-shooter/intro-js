@@ -1,6 +1,4 @@
 //1. Given two numbers, write a function that will return  the larger number
-var num1 = 5
-var num2 = 10
 function largerNum(num1, num2) {
     return Math.max(num1, num2)
 
@@ -13,14 +11,13 @@ function largerNum(num1, num2) {
 // Example:
 // input: 4, 10
 // output: "F"
-var x = 23
-var y = 25
 function testGrader(score, possible) {
-    if (x, y = 23, 25){
+    console.log(score, possible)
+    if (score, possible == 23, 25){
         return ("A")
     }
-    else if (x, y = 4, 10){
-        return ("F")
+    else{
+        return ("C")
     }
 }
 
@@ -52,14 +49,15 @@ function timeOfDayGreeting(hour) {
 
 //4. Write a function that will take in a number and return 'fever' if it indicates a fever (over 98.6) and additionally if the person should go to the hospital (at or above 103) 'fever go to hospital' (hint: try this with string concatenation), if it is under return 'no fever'
 function isFever(temp) {
+    //debugger
     if(temp >= 103){
-        return 'Fever go to the hospital'
+        return "fever go to hospital"
     }
-    else if(temp >= 98.6){
-        return 'Fever'
+    else if(temp > 98.6){
+        return "fever"
     }
-    else{
-        return 'No return'
+    else if(temp <= 98.6){
+        return "no fever"
     }
 }
 
@@ -72,10 +70,15 @@ let myCar = {
 }
 
 function isStopped(car) {
-    if (myCar.moving = false){
-        return (true)
+    if (car.moving == false){
+        return true
+    }
+    else{
+        return false
     }
 }
+
+isStopped(myCar)
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
 
